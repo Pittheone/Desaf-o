@@ -1,0 +1,26 @@
+Algoritmo ejer_3
+	
+	Definir pares , impares Como Entero
+	Definir number Como Entero
+	
+	pares <- 0
+	pares <- 0
+	
+	Dimension arreglo[10]
+	Para i <- 1 Hasta 10 Hacer
+		Escribir "Ingresa numero"
+		Leer number
+		arreglo[i] <- number
+		Escribir arreglo[i]
+		Si number Mod 2 =  0 Entonces
+			pares <- pares + 1
+		Sino 
+			impares <- impares + 1
+			
+		FinSi
+	FinPara
+	
+	Escribir "pares: " , pares , " impares: " , impares
+	
+	
+FinAlgoritmo
